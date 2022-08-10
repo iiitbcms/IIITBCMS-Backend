@@ -1,19 +1,19 @@
-[![CircleCI](https://circleci.com/gh/akshathkaushal/IIITB-CMS-Backend.svg?circle-token=82792b994f6b5a5e5baf538ed6d2f2b50ea144b7)](https://app.circleci.com/pipelines/github/akshathkaushal/IIITB-CMS-Backend)
+[![CircleCI](https://circleci.com/gh/iiitbcms/IIITB-CMS-Backend.svg?circle-token=82792b994f6b5a5e5baf538ed6d2f2b50ea144b7)](https://app.circleci.com/pipelines/github/iiitbcms/IIITB-CMS-Backend)
 
-![Maven](https://github.com/akshathkaushal/IIITB-CMS-Backend/actions/workflows/mvn-verify.yml/badge.svg)
-![Lint](https://github.com/akshathkaushal/IIITB-CMS-Backend/actions/workflows/linter.yml/badge.svg)
-![AWS deployment](https://github.com/akshathkaushal/IIITB-CMS-Backend/actions/workflows/deploy.yml/badge.svg)
+![Maven](https://github.com/iiitbcms/IIITBCMS-Backend/actions/workflows/mvn-verify.yml/badge.svg)
+![Lint](https://github.com/iiitbcms/IIITBCMS-Backend/actions/workflows/linter.yml/badge.svg)
+![AWS deployment](https://github.com/iiitbcms/IIITBCMS-Backend/actions/workflows/deploy.yml/badge.svg)
 
-![Repo Size](https://img.shields.io/github/repo-size/akshathkaushal/IIITB-CMS-Backend)
-![Commits](https://img.shields.io/github/commit-activity/w/akshathkaushal/IIITB-CMS-Backend)
-![Last Commit](https://img.shields.io/github/last-commit/akshathkaushal/IIITB-CMS-Backend/master)
-![Open Issues](https://img.shields.io/github/issues-raw/akshathkaushal/IIITB-CMS-Backend)
-![Pull Requests](https://img.shields.io/github/issues-pr-raw/akshathkaushal/IIITB-CMS-Backend)
-![visitor badge](https://visitor-badge.glitch.me/badge?page_id=akshathkaushal.IIITB-CMS-Backend&left_text=Visitors)
+![Repo Size](https://img.shields.io/github/repo-size/iiitbcms/IIITBCMS-Backend)
+![Commits](https://img.shields.io/github/commit-activity/w/iiitbcms/IIITBCMS-Backend)
+![Last Commit](https://img.shields.io/github/last-commit/iiitbcms/IIITBCMS-Backend/main)
+![Open Issues](https://img.shields.io/github/issues-raw/iiitbcms/IIITBCMS-Backend)
+![Pull Requests](https://img.shields.io/github/issues-pr-raw/iiitbcms/IIITBCMS-Backend)
+![visitor badge](https://visitor-badge.glitch.me/badge?page_id=iiitbcms.IIITBCMS-Backend&left_text=Visitors)
 
-![Forks](https://img.shields.io/github/forks/akshathkaushal/IIITB-CMS-Backend?style=social)
-![Stars](https://img.shields.io/github/stars/akshathkaushal/IIITB-CMS-Backend?style=social)
-![Watchers](https://img.shields.io/github/watchers/akshathkaushal/IIITB-CMS-Backend?style=social)
+![Forks](https://img.shields.io/github/forks/iiitbcms/IIITBCMS-Backend?style=social)
+![Stars](https://img.shields.io/github/stars/iiitbcms/IIITBCMS-Backend?style=social)
+![Watchers](https://img.shields.io/github/watchers/iiitbcms/IIITBCMS-Backend?style=social)
 
 # IIITB CMS Backend
 Contains backend code for IIITB CMS
