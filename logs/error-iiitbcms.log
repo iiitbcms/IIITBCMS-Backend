@@ -1,0 +1,213 @@
+09/May/2022:00:58:40 310 [PostController.java] [ERROR] com.spe.iiitbcms.controller.PostController Error in creating post
+09/May/2022:00:58:58 091 [PostController.java] [ERROR] com.spe.iiitbcms.controller.PostController Error in creating post
+09/May/2022:01:02:57 525 [VoteController.java] [ERROR] com.spe.iiitbcms.controller.VoteController Voting failed
+09/May/2022:01:03:29 554 [PostController.java] [ERROR] com.spe.iiitbcms.controller.PostController Error in creating post
+15/May/2022:18:35:58 356 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Comment could not be created
+15/May/2022:18:36:14 316 [VoteController.java] [ERROR] com.spe.iiitbcms.controller.VoteController Voting failed
+15/May/2022:18:36:18 837 [VoteController.java] [ERROR] com.spe.iiitbcms.controller.VoteController Voting failed
+15/May/2022:19:19:20 756 [AuthController.java] [ERROR] com.spe.iiitbcms.controller.AuthController Account could not be activated due to some error
+19/Jun/2022:20:58:30 825 [MailService.java] [ERROR] com.spe.iiitbcms.service.MailService Exception occurred when sending mail
+org.springframework.mail.MailSendException: Mail server connection failed; nested exception is com.sun.mail.util.MailConnectException: Couldn't connect to host, port: smtp.mailtrap.io, 25; timeout -1;
+  nested exception is:
+	java.net.ConnectException: Connection timed out: connect. Failed messages: com.sun.mail.util.MailConnectException: Couldn't connect to host, port: smtp.mailtrap.io, 25; timeout -1;
+  nested exception is:
+	java.net.ConnectException: Connection timed out: connect
+	at org.springframework.mail.javamail.JavaMailSenderImpl.doSend(JavaMailSenderImpl.java:448) ~[spring-context-support-5.3.14.jar:5.3.14]
+	at org.springframework.mail.javamail.JavaMailSenderImpl.send(JavaMailSenderImpl.java:361) ~[spring-context-support-5.3.14.jar:5.3.14]
+	at org.springframework.mail.javamail.JavaMailSenderImpl.send(JavaMailSenderImpl.java:378) ~[spring-context-support-5.3.14.jar:5.3.14]
+	at org.springframework.mail.javamail.JavaMailSenderImpl.send(JavaMailSenderImpl.java:366) ~[spring-context-support-5.3.14.jar:5.3.14]
+	at com.spe.iiitbcms.service.MailService.sendMail(MailService.java:32) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344) ~[spring-aop-5.3.14.jar:5.3.14]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198) ~[spring-aop-5.3.14.jar:5.3.14]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:789) ~[spring-aop-5.3.14.jar:5.3.14]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.3.14.jar:5.3.14]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753) ~[spring-aop-5.3.14.jar:5.3.14]
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115) ~[spring-aop-5.3.14.jar:5.3.14]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+Caused by: com.sun.mail.util.MailConnectException: Couldn't connect to host, port: smtp.mailtrap.io, 25; timeout -1
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:2210) ~[jakarta.mail-1.6.7.jar:1.6.7]
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:722) ~[jakarta.mail-1.6.7.jar:1.6.7]
+	at javax.mail.Service.connect(Service.java:342) ~[jakarta.mail-1.6.7.jar:1.6.7]
+	at org.springframework.mail.javamail.JavaMailSenderImpl.connectTransport(JavaMailSenderImpl.java:518) ~[spring-context-support-5.3.14.jar:5.3.14]
+	at org.springframework.mail.javamail.JavaMailSenderImpl.doSend(JavaMailSenderImpl.java:437) ~[spring-context-support-5.3.14.jar:5.3.14]
+	... 18 more
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at sun.nio.ch.Net.connect0(Native Method) ~[?:?]
+	at sun.nio.ch.Net.connect(Net.java:579) ~[?:?]
+	at sun.nio.ch.Net.connect(Net.java:568) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:588) ~[?:?]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[?:?]
+	at java.net.Socket.connect(Socket.java:633) ~[?:?]
+	at java.net.Socket.connect(Socket.java:583) ~[?:?]
+	at com.sun.mail.util.SocketFetcher.createSocket(SocketFetcher.java:335) ~[jakarta.mail-1.6.7.jar:1.6.7]
+	at com.sun.mail.util.SocketFetcher.getSocket(SocketFetcher.java:214) ~[jakarta.mail-1.6.7.jar:1.6.7]
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:2160) ~[jakarta.mail-1.6.7.jar:1.6.7]
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:722) ~[jakarta.mail-1.6.7.jar:1.6.7]
+	at javax.mail.Service.connect(Service.java:342) ~[jakarta.mail-1.6.7.jar:1.6.7]
+	at org.springframework.mail.javamail.JavaMailSenderImpl.connectTransport(JavaMailSenderImpl.java:518) ~[spring-context-support-5.3.14.jar:5.3.14]
+	at org.springframework.mail.javamail.JavaMailSenderImpl.doSend(JavaMailSenderImpl.java:437) ~[spring-context-support-5.3.14.jar:5.3.14]
+	... 18 more
+19/Jun/2022:20:59:17 583 [AuthController.java] [ERROR] com.spe.iiitbcms.controller.AuthController Error logging in
+19/Jun/2022:20:59:27 351 [AuthController.java] [ERROR] com.spe.iiitbcms.controller.AuthController Error logging in
+19/Jun/2022:22:04:29 429 [MailService.java] [ERROR] com.spe.iiitbcms.service.MailService Exception occurred when sending mail
+org.springframework.mail.MailSendException: Mail server connection failed; nested exception is com.sun.mail.util.MailConnectException: Couldn't connect to host, port: smtp.mailtrap.io, 25; timeout -1;
+  nested exception is:
+	java.net.ConnectException: Connection timed out: connect. Failed messages: com.sun.mail.util.MailConnectException: Couldn't connect to host, port: smtp.mailtrap.io, 25; timeout -1;
+  nested exception is:
+	java.net.ConnectException: Connection timed out: connect
+	at org.springframework.mail.javamail.JavaMailSenderImpl.doSend(JavaMailSenderImpl.java:448) ~[spring-context-support-5.3.14.jar:5.3.14]
+	at org.springframework.mail.javamail.JavaMailSenderImpl.send(JavaMailSenderImpl.java:361) ~[spring-context-support-5.3.14.jar:5.3.14]
+	at org.springframework.mail.javamail.JavaMailSenderImpl.send(JavaMailSenderImpl.java:378) ~[spring-context-support-5.3.14.jar:5.3.14]
+	at org.springframework.mail.javamail.JavaMailSenderImpl.send(JavaMailSenderImpl.java:366) ~[spring-context-support-5.3.14.jar:5.3.14]
+	at com.spe.iiitbcms.service.MailService.sendMail(MailService.java:32) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344) ~[spring-aop-5.3.14.jar:5.3.14]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198) ~[spring-aop-5.3.14.jar:5.3.14]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:789) ~[spring-aop-5.3.14.jar:5.3.14]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.3.14.jar:5.3.14]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753) ~[spring-aop-5.3.14.jar:5.3.14]
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115) ~[spring-aop-5.3.14.jar:5.3.14]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+Caused by: com.sun.mail.util.MailConnectException: Couldn't connect to host, port: smtp.mailtrap.io, 25; timeout -1
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:2210) ~[jakarta.mail-1.6.7.jar:1.6.7]
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:722) ~[jakarta.mail-1.6.7.jar:1.6.7]
+	at javax.mail.Service.connect(Service.java:342) ~[jakarta.mail-1.6.7.jar:1.6.7]
+	at org.springframework.mail.javamail.JavaMailSenderImpl.connectTransport(JavaMailSenderImpl.java:518) ~[spring-context-support-5.3.14.jar:5.3.14]
+	at org.springframework.mail.javamail.JavaMailSenderImpl.doSend(JavaMailSenderImpl.java:437) ~[spring-context-support-5.3.14.jar:5.3.14]
+	... 18 more
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at sun.nio.ch.Net.connect0(Native Method) ~[?:?]
+	at sun.nio.ch.Net.connect(Net.java:579) ~[?:?]
+	at sun.nio.ch.Net.connect(Net.java:568) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:588) ~[?:?]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[?:?]
+	at java.net.Socket.connect(Socket.java:633) ~[?:?]
+	at java.net.Socket.connect(Socket.java:583) ~[?:?]
+	at com.sun.mail.util.SocketFetcher.createSocket(SocketFetcher.java:335) ~[jakarta.mail-1.6.7.jar:1.6.7]
+	at com.sun.mail.util.SocketFetcher.getSocket(SocketFetcher.java:214) ~[jakarta.mail-1.6.7.jar:1.6.7]
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:2160) ~[jakarta.mail-1.6.7.jar:1.6.7]
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:722) ~[jakarta.mail-1.6.7.jar:1.6.7]
+	at javax.mail.Service.connect(Service.java:342) ~[jakarta.mail-1.6.7.jar:1.6.7]
+	at org.springframework.mail.javamail.JavaMailSenderImpl.connectTransport(JavaMailSenderImpl.java:518) ~[spring-context-support-5.3.14.jar:5.3.14]
+	at org.springframework.mail.javamail.JavaMailSenderImpl.doSend(JavaMailSenderImpl.java:437) ~[spring-context-support-5.3.14.jar:5.3.14]
+	... 18 more
+19/Jun/2022:22:18:47 247 [PostController.java] [ERROR] com.spe.iiitbcms.controller.PostController Error in creating post
+19/Jun/2022:22:18:52 099 [PostController.java] [ERROR] com.spe.iiitbcms.controller.PostController Error in creating post
+19/Jun/2022:22:19:31 628 [PostController.java] [ERROR] com.spe.iiitbcms.controller.PostController Could not fetch post with id 1
+19/Jun/2022:22:19:31 628 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the post 1
+20/Jun/2022:12:50:03 280 [VoteController.java] [ERROR] com.spe.iiitbcms.controller.VoteController Voting failed
+20/Jun/2022:12:50:03 824 [VoteController.java] [ERROR] com.spe.iiitbcms.controller.VoteController Voting failed
+20/Jun/2022:12:50:03 978 [VoteController.java] [ERROR] com.spe.iiitbcms.controller.VoteController Voting failed
+20/Jun/2022:14:44:46 741 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the post 2
+20/Jun/2022:14:44:46 746 [PostController.java] [ERROR] com.spe.iiitbcms.controller.PostController Could not fetch post with id 2
+20/Jun/2022:14:45:28 959 [PostController.java] [ERROR] com.spe.iiitbcms.controller.PostController Error in creating post
+20/Jun/2022:14:45:33 718 [PostController.java] [ERROR] com.spe.iiitbcms.controller.PostController Error in creating post
+20/Jun/2022:14:45:38 675 [PostController.java] [ERROR] com.spe.iiitbcms.controller.PostController Error in creating post
+20/Jun/2022:14:47:28 379 [PostController.java] [ERROR] com.spe.iiitbcms.controller.PostController Error in creating post
+20/Jun/2022:14:50:03 760 [PostController.java] [ERROR] com.spe.iiitbcms.controller.PostController Error in creating post
+20/Jun/2022:15:02:18 817 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the post 2
+20/Jun/2022:15:02:18 826 [PostController.java] [ERROR] com.spe.iiitbcms.controller.PostController Could not fetch post with id 2
+20/Jun/2022:15:02:41 847 [PostController.java] [ERROR] com.spe.iiitbcms.controller.PostController Error in creating post
+20/Jun/2022:15:09:24 712 [PostController.java] [ERROR] com.spe.iiitbcms.controller.PostController Error in creating post
+20/Jun/2022:15:17:08 359 [PostController.java] [ERROR] com.spe.iiitbcms.controller.PostController Error in creating post
+20/Jun/2022:15:33:33 632 [PostController.java] [ERROR] com.spe.iiitbcms.controller.PostController Error in creating post
+26/Jun/2022:10:16:57 934 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the post 1
+26/Jun/2022:10:16:57 966 [PostController.java] [ERROR] com.spe.iiitbcms.controller.PostController Could not fetch post with id 1
+26/Jun/2022:10:18:51 412 [PostController.java] [ERROR] com.spe.iiitbcms.controller.PostController Error in creating post
+27/Jun/2022:20:27:29 033 [PostController.java] [ERROR] com.spe.iiitbcms.controller.PostController Error in creating post
+27/Jun/2022:20:27:32 700 [PostController.java] [ERROR] com.spe.iiitbcms.controller.PostController Error in creating post
+27/Jun/2022:20:28:00 844 [PostController.java] [ERROR] com.spe.iiitbcms.controller.PostController Error in creating post
+27/Jun/2022:20:46:57 141 [PostController.java] [ERROR] com.spe.iiitbcms.controller.PostController Error in creating post
+27/Jun/2022:21:00:25 373 [PostController.java] [ERROR] com.spe.iiitbcms.controller.PostController Error in creating post
+27/Jun/2022:21:01:47 358 [PostController.java] [ERROR] com.spe.iiitbcms.controller.PostController Could not fetch post(s)
+27/Jun/2022:21:02:56 179 [PostController.java] [ERROR] com.spe.iiitbcms.controller.PostController Error in creating post
+27/Jun/2022:21:04:18 677 [PostController.java] [ERROR] com.spe.iiitbcms.controller.PostController Could not fetch post(s)
+27/Jun/2022:21:32:33 729 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+27/Jun/2022:21:32:33 757 [PostController.java] [ERROR] com.spe.iiitbcms.controller.PostController Could not fetch posts for roll number kaushik.sai@iiitb.ac.in
+27/Jun/2022:21:36:31 739 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+27/Jun/2022:21:36:31 881 [PostController.java] [ERROR] com.spe.iiitbcms.controller.PostController Could not fetch posts for roll number kaushik.sai@iiitb.ac.in
+27/Jun/2022:21:38:31 206 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+27/Jun/2022:21:38:31 310 [PostController.java] [ERROR] com.spe.iiitbcms.controller.PostController Could not fetch posts for email kaushik.sai@iiitb.ac.in
+27/Jun/2022:21:41:48 349 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+27/Jun/2022:21:43:37 082 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+27/Jun/2022:21:44:56 357 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+27/Jun/2022:21:47:14 711 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+27/Jun/2022:22:20:49 551 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+27/Jun/2022:22:21:10 358 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+27/Jun/2022:22:21:23 058 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+27/Jun/2022:22:25:00 568 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+27/Jun/2022:22:26:22 503 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+27/Jun/2022:22:26:33 174 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+27/Jun/2022:22:27:13 920 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+27/Jun/2022:22:28:41 301 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+27/Jun/2022:22:28:49 712 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+27/Jun/2022:23:20:20 513 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+27/Jun/2022:23:21:39 257 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+27/Jun/2022:23:24:16 913 [VoteController.java] [ERROR] com.spe.iiitbcms.controller.VoteController Voting failed
+27/Jun/2022:23:24:18 302 [VoteController.java] [ERROR] com.spe.iiitbcms.controller.VoteController Voting failed
+27/Jun/2022:23:35:45 630 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+27/Jun/2022:23:36:37 374 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+27/Jun/2022:23:36:49 395 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+27/Jun/2022:23:37:13 567 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+27/Jun/2022:23:37:40 686 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+27/Jun/2022:23:37:58 325 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+27/Jun/2022:23:38:11 548 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+27/Jun/2022:23:38:20 105 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+27/Jun/2022:23:38:25 558 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+27/Jun/2022:23:38:41 490 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+27/Jun/2022:23:38:56 439 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+27/Jun/2022:23:39:09 867 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+27/Jun/2022:23:39:28 139 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+27/Jun/2022:23:43:22 571 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+27/Jun/2022:23:44:01 568 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+27/Jun/2022:23:44:05 666 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+27/Jun/2022:23:46:22 027 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+27/Jun/2022:23:46:57 044 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+27/Jun/2022:23:50:25 311 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+27/Jun/2022:23:50:51 205 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+28/Jun/2022:01:15:01 439 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+28/Jun/2022:01:16:04 809 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+28/Jun/2022:01:21:35 207 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+28/Jun/2022:01:22:01 219 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+28/Jun/2022:01:42:15 247 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+28/Jun/2022:01:42:38 421 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+28/Jun/2022:01:44:15 854 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+28/Jun/2022:01:44:53 370 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+28/Jun/2022:01:48:04 396 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+28/Jun/2022:01:48:23 963 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+28/Jun/2022:01:48:37 600 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+28/Jun/2022:01:49:03 352 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+28/Jun/2022:01:49:28 019 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+28/Jun/2022:01:50:03 857 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+28/Jun/2022:01:55:46 909 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+28/Jun/2022:01:56:36 767 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+28/Jun/2022:02:02:03 421 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+28/Jun/2022:02:05:31 879 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+28/Jun/2022:02:05:45 998 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+28/Jun/2022:02:06:47 899 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+28/Jun/2022:02:17:06 663 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+28/Jun/2022:02:26:15 782 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+28/Jun/2022:02:26:56 696 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+28/Jun/2022:02:34:08 746 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+28/Jun/2022:02:34:25 060 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+28/Jun/2022:02:34:53 660 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+28/Jun/2022:02:34:59 099 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+28/Jun/2022:02:35:11 620 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+28/Jun/2022:02:35:22 455 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+28/Jun/2022:02:45:01 171 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+28/Jun/2022:02:53:28 824 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+28/Jun/2022:02:53:53 144 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+28/Jun/2022:02:54:38 197 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
