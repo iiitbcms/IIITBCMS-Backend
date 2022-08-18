@@ -2944,3 +2944,6 @@
 19/Aug/2022:02:54:26 318 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
 19/Aug/2022:02:54:31 508 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
 19/Aug/2022:02:55:40 909 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+19/Aug/2022:03:04:38 876 [StartupInfoLogger.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication Starting SpringIIITcmsApplication using Java 17.0.2 on Kaushik with PID 11528 (E:\IIITBCMS-Backend\target\classes started by Kaushik in E:\IIITBCMS-Backend)
+19/Aug/2022:03:04:38 882 [SpringApplication.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication No active profile set, falling back to default profiles: default
+19/Aug/2022:03:04:42 546 [StartupInfoLogger.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication Started SpringIIITcmsApplication in 4.109 seconds (JVM running for 5.083)
