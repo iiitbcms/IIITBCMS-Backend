@@ -2947,3 +2947,437 @@
 19/Aug/2022:03:04:38 876 [StartupInfoLogger.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication Starting SpringIIITcmsApplication using Java 17.0.2 on Kaushik with PID 11528 (E:\IIITBCMS-Backend\target\classes started by Kaushik in E:\IIITBCMS-Backend)
 19/Aug/2022:03:04:38 882 [SpringApplication.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication No active profile set, falling back to default profiles: default
 19/Aug/2022:03:04:42 546 [StartupInfoLogger.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication Started SpringIIITcmsApplication in 4.109 seconds (JVM running for 5.083)
+19/Aug/2022:19:48:24 438 [StartupInfoLogger.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication Starting SpringIIITcmsApplication using Java 17.0.2 on Kaushik with PID 17080 (E:\IIITBCMS-Backend\target\classes started by Kaushik in E:\IIITBCMS-Backend)
+19/Aug/2022:19:48:24 444 [SpringApplication.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication No active profile set, falling back to default profiles: default
+19/Aug/2022:19:48:32 469 [StartupInfoLogger.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication Started SpringIIITcmsApplication in 8.554 seconds (JVM running for 10.347)
+19/Aug/2022:19:50:09 438 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+19/Aug/2022:20:01:44 821 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+19/Aug/2022:20:01:46 738 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+19/Aug/2022:20:05:44 889 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+19/Aug/2022:20:05:46 230 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+19/Aug/2022:20:11:11 926 [StartupInfoLogger.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication Starting SpringIIITcmsApplication using Java 17.0.2 on Kaushik with PID 22508 (E:\IIITBCMS-Backend\target\classes started by Kaushik in E:\IIITBCMS-Backend)
+19/Aug/2022:20:11:11 930 [SpringApplication.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication No active profile set, falling back to default profiles: default
+19/Aug/2022:20:11:20 072 [StartupInfoLogger.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication Started SpringIIITcmsApplication in 8.689 seconds (JVM running for 10.692)
+19/Aug/2022:20:11:28 981 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+19/Aug/2022:20:12:32 923 [StartupInfoLogger.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication Starting SpringIIITcmsApplication using Java 17.0.2 on Kaushik with PID 22408 (E:\IIITBCMS-Backend\target\classes started by Kaushik in E:\IIITBCMS-Backend)
+19/Aug/2022:20:12:32 928 [SpringApplication.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication No active profile set, falling back to default profiles: default
+19/Aug/2022:20:12:39 581 [StartupInfoLogger.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication Started SpringIIITcmsApplication in 7.089 seconds (JVM running for 8.533)
+19/Aug/2022:20:13:27 356 [StartupInfoLogger.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication Starting SpringIIITcmsApplication using Java 17.0.2 on Kaushik with PID 8640 (E:\IIITBCMS-Backend\target\classes started by Kaushik in E:\IIITBCMS-Backend)
+19/Aug/2022:20:13:27 361 [SpringApplication.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication No active profile set, falling back to default profiles: default
+19/Aug/2022:20:13:35 196 [StartupInfoLogger.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication Started SpringIIITcmsApplication in 8.334 seconds (JVM running for 9.479)
+19/Aug/2022:20:16:18 300 [StartupInfoLogger.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication Starting SpringIIITcmsApplication using Java 17.0.2 on Kaushik with PID 7848 (E:\IIITBCMS-Backend\target\classes started by Kaushik in E:\IIITBCMS-Backend)
+19/Aug/2022:20:16:18 305 [SpringApplication.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication No active profile set, falling back to default profiles: default
+19/Aug/2022:20:16:25 880 [StartupInfoLogger.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication Started SpringIIITcmsApplication in 8.104 seconds (JVM running for 9.572)
+19/Aug/2022:20:18:08 266 [StartupInfoLogger.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication Starting SpringIIITcmsApplication using Java 17.0.2 on Kaushik with PID 12104 (E:\IIITBCMS-Backend\target\classes started by Kaushik in E:\IIITBCMS-Backend)
+19/Aug/2022:20:18:08 271 [SpringApplication.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication No active profile set, falling back to default profiles: default
+19/Aug/2022:20:18:14 766 [StartupInfoLogger.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication Started SpringIIITcmsApplication in 6.941 seconds (JVM running for 8.218)
+19/Aug/2022:20:18:17 549 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+19/Aug/2022:20:18:35 606 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+19/Aug/2022:20:25:45 204 [StartupInfoLogger.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication Starting SpringIIITcmsApplication using Java 17.0.2 on Kaushik with PID 15104 (E:\IIITBCMS-Backend\target\classes started by Kaushik in E:\IIITBCMS-Backend)
+19/Aug/2022:20:25:45 209 [SpringApplication.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication No active profile set, falling back to default profiles: default
+19/Aug/2022:20:25:52 226 [StartupInfoLogger.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication Started SpringIIITcmsApplication in 7.49 seconds (JVM running for 8.569)
+19/Aug/2022:20:25:57 235 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+19/Aug/2022:20:26:39 575 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+19/Aug/2022:20:30:41 639 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+19/Aug/2022:20:37:06 870 [StartupInfoLogger.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication Starting SpringIIITcmsApplication using Java 17.0.2 on Kaushik with PID 19320 (E:\IIITBCMS-Backend\target\classes started by Kaushik in E:\IIITBCMS-Backend)
+19/Aug/2022:20:37:06 876 [SpringApplication.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication No active profile set, falling back to default profiles: default
+19/Aug/2022:20:37:13 940 [StartupInfoLogger.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication Started SpringIIITcmsApplication in 7.587 seconds (JVM running for 9.125)
+19/Aug/2022:20:37:30 584 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+19/Aug/2022:20:37:34 696 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+19/Aug/2022:20:37:59 355 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+19/Aug/2022:20:38:05 644 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+19/Aug/2022:20:38:13 697 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+19/Aug/2022:20:38:16 022 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+19/Aug/2022:20:38:22 693 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+19/Aug/2022:20:38:33 344 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts for email kaushik.sai@iiitb.ac.in
+19/Aug/2022:20:38:39 079 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+19/Aug/2022:20:38:40 930 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched post with id 1
+19/Aug/2022:20:38:41 051 [CommentsController.java] [INFO] com.spe.iiitbcms.controller.CommentsController Successfully fetched comments for post with id 1
+19/Aug/2022:20:38:55 106 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+19/Aug/2022:23:07:54 605 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+19/Aug/2022:23:07:56 994 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+19/Aug/2022:23:08:03 782 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+19/Aug/2022:23:10:56 872 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+19/Aug/2022:23:41:53 607 [StartupInfoLogger.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication Starting SpringIIITcmsApplication using Java 17.0.2 on Kaushik with PID 22856 (E:\IIITBCMS-Backend\target\classes started by Kaushik in E:\IIITBCMS-Backend)
+19/Aug/2022:23:41:53 612 [SpringApplication.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication No active profile set, falling back to default profiles: default
+19/Aug/2022:23:42:01 030 [StartupInfoLogger.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication Started SpringIIITcmsApplication in 7.88 seconds (JVM running for 9.526)
+19/Aug/2022:23:42:11 050 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+19/Aug/2022:23:42:17 431 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+19/Aug/2022:23:42:21 918 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+19/Aug/2022:23:42:24 981 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+19/Aug/2022:23:42:27 413 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+19/Aug/2022:23:42:34 898 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+19/Aug/2022:23:42:36 820 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+19/Aug/2022:23:42:38 297 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+19/Aug/2022:23:42:40 060 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+19/Aug/2022:23:43:46 444 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched post with id 1
+19/Aug/2022:23:43:46 758 [CommentsController.java] [INFO] com.spe.iiitbcms.controller.CommentsController Successfully fetched comments for post with id 1
+19/Aug/2022:23:43:54 802 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+19/Aug/2022:23:45:50 571 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+19/Aug/2022:23:45:51 428 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+19/Aug/2022:23:45:53 873 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+19/Aug/2022:23:45:57 803 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+19/Aug/2022:23:46:00 243 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+19/Aug/2022:23:46:02 476 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+19/Aug/2022:23:51:18 186 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+19/Aug/2022:23:51:38 082 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully created post
+19/Aug/2022:23:51:38 180 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+19/Aug/2022:23:51:45 603 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+19/Aug/2022:23:51:48 227 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+19/Aug/2022:23:51:49 567 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+19/Aug/2022:23:51:51 530 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+19/Aug/2022:23:51:53 437 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+19/Aug/2022:23:51:55 415 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+19/Aug/2022:23:51:57 401 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+19/Aug/2022:23:51:58 871 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+19/Aug/2022:23:52:40 759 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+19/Aug/2022:23:52:42 232 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+19/Aug/2022:23:52:43 185 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+19/Aug/2022:23:52:43 233 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+19/Aug/2022:23:52:45 362 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+19/Aug/2022:23:52:45 412 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+19/Aug/2022:23:53:04 638 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+19/Aug/2022:23:53:04 671 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+19/Aug/2022:23:53:11 557 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+19/Aug/2022:23:53:11 585 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+19/Aug/2022:23:53:15 314 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+19/Aug/2022:23:53:15 342 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+19/Aug/2022:23:53:17 561 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+19/Aug/2022:23:53:17 595 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+19/Aug/2022:23:53:26 192 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+19/Aug/2022:23:53:26 220 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+19/Aug/2022:23:55:25 509 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+19/Aug/2022:23:55:25 541 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+19/Aug/2022:23:56:32 524 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts for email kaushik.sai@iiitb.ac.in
+19/Aug/2022:23:56:43 598 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched post with id 1
+19/Aug/2022:23:56:43 687 [CommentsController.java] [INFO] com.spe.iiitbcms.controller.CommentsController Successfully fetched comments for post with id 1
+19/Aug/2022:23:57:01 427 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+19/Aug/2022:23:57:29 688 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched post with id 1
+19/Aug/2022:23:57:29 755 [CommentsController.java] [INFO] com.spe.iiitbcms.controller.CommentsController Successfully fetched comments for post with id 1
+19/Aug/2022:23:58:37 667 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+19/Aug/2022:23:58:40 843 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched post with id 1
+19/Aug/2022:23:58:40 935 [CommentsController.java] [INFO] com.spe.iiitbcms.controller.CommentsController Successfully fetched comments for post with id 1
+19/Aug/2022:23:58:44 063 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched post with id 1
+19/Aug/2022:23:58:44 128 [CommentsController.java] [INFO] com.spe.iiitbcms.controller.CommentsController Successfully fetched comments for post with id 1
+19/Aug/2022:23:58:46 344 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched post with id 1
+19/Aug/2022:23:58:46 466 [CommentsController.java] [INFO] com.spe.iiitbcms.controller.CommentsController Successfully fetched comments for post with id 1
+20/Aug/2022:00:07:09 000 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched post with id 1
+20/Aug/2022:00:07:09 274 [CommentsController.java] [INFO] com.spe.iiitbcms.controller.CommentsController Successfully fetched comments for post with id 1
+20/Aug/2022:00:07:09 886 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:07:11 603 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:07:25 831 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:07:26 020 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:09:43 039 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:09:45 737 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched post with id 1
+20/Aug/2022:00:09:46 156 [CommentsController.java] [INFO] com.spe.iiitbcms.controller.CommentsController Successfully fetched comments for post with id 1
+20/Aug/2022:00:10:31 997 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched post with id 1
+20/Aug/2022:00:10:32 323 [CommentsController.java] [INFO] com.spe.iiitbcms.controller.CommentsController Successfully fetched comments for post with id 1
+20/Aug/2022:00:10:33 117 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:11:08 492 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched post with id 1
+20/Aug/2022:00:11:08 834 [CommentsController.java] [INFO] com.spe.iiitbcms.controller.CommentsController Successfully fetched comments for post with id 1
+20/Aug/2022:00:11:09 271 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:11:16 257 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched post with id 1
+20/Aug/2022:00:11:16 636 [CommentsController.java] [INFO] com.spe.iiitbcms.controller.CommentsController Successfully fetched comments for post with id 1
+20/Aug/2022:00:11:17 742 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:12:41 453 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched post with id 1
+20/Aug/2022:00:12:41 552 [CommentsController.java] [INFO] com.spe.iiitbcms.controller.CommentsController Successfully fetched comments for post with id 1
+20/Aug/2022:00:12:41 843 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:12:52 759 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched post with id 1
+20/Aug/2022:00:12:53 075 [CommentsController.java] [INFO] com.spe.iiitbcms.controller.CommentsController Successfully fetched comments for post with id 1
+20/Aug/2022:00:12:54 049 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:17:53 369 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched post with id 1
+20/Aug/2022:00:17:53 692 [CommentsController.java] [INFO] com.spe.iiitbcms.controller.CommentsController Successfully fetched comments for post with id 1
+20/Aug/2022:00:17:54 136 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:23:42 508 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:23:42 508 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched post with id 1
+20/Aug/2022:00:23:43 008 [CommentsController.java] [INFO] com.spe.iiitbcms.controller.CommentsController Successfully fetched comments for post with id 1
+20/Aug/2022:00:24:06 218 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched post with id 1
+20/Aug/2022:00:24:06 239 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:24:06 486 [CommentsController.java] [INFO] com.spe.iiitbcms.controller.CommentsController Successfully fetched comments for post with id 1
+20/Aug/2022:00:24:46 678 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched post with id 1
+20/Aug/2022:00:24:46 812 [CommentsController.java] [INFO] com.spe.iiitbcms.controller.CommentsController Successfully fetched comments for post with id 1
+20/Aug/2022:00:24:47 331 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:26:03 236 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched post with id 1
+20/Aug/2022:00:26:03 543 [CommentsController.java] [INFO] com.spe.iiitbcms.controller.CommentsController Successfully fetched comments for post with id 1
+20/Aug/2022:00:26:03 625 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:26:07 366 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+20/Aug/2022:00:26:07 385 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched post with id 1
+20/Aug/2022:00:26:07 420 [CommentsController.java] [INFO] com.spe.iiitbcms.controller.CommentsController Successfully fetched comments for post with id 1
+20/Aug/2022:00:26:09 532 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+20/Aug/2022:00:26:09 548 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched post with id 1
+20/Aug/2022:00:26:09 570 [CommentsController.java] [INFO] com.spe.iiitbcms.controller.CommentsController Successfully fetched comments for post with id 1
+20/Aug/2022:00:26:28 662 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched post with id 1
+20/Aug/2022:00:26:28 681 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:26:28 810 [CommentsController.java] [INFO] com.spe.iiitbcms.controller.CommentsController Successfully fetched comments for post with id 1
+20/Aug/2022:00:26:38 274 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+20/Aug/2022:00:26:38 287 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched post with id 1
+20/Aug/2022:00:26:38 308 [CommentsController.java] [INFO] com.spe.iiitbcms.controller.CommentsController Successfully fetched comments for post with id 1
+20/Aug/2022:00:26:39 618 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+20/Aug/2022:00:26:39 631 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched post with id 1
+20/Aug/2022:00:26:39 650 [CommentsController.java] [INFO] com.spe.iiitbcms.controller.CommentsController Successfully fetched comments for post with id 1
+20/Aug/2022:00:27:13 137 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+20/Aug/2022:00:27:13 151 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched post with id 1
+20/Aug/2022:00:27:13 171 [CommentsController.java] [INFO] com.spe.iiitbcms.controller.CommentsController Successfully fetched comments for post with id 1
+20/Aug/2022:00:27:13 894 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+20/Aug/2022:00:27:13 906 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched post with id 1
+20/Aug/2022:00:27:13 923 [CommentsController.java] [INFO] com.spe.iiitbcms.controller.CommentsController Successfully fetched comments for post with id 1
+20/Aug/2022:00:27:25 127 [CommentsController.java] [INFO] com.spe.iiitbcms.controller.CommentsController Comment created successfully
+20/Aug/2022:00:27:27 488 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched post with id 1
+20/Aug/2022:00:27:27 542 [CommentsController.java] [INFO] com.spe.iiitbcms.controller.CommentsController Successfully fetched comments for post with id 1
+20/Aug/2022:00:30:16 638 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched post with id 1
+20/Aug/2022:00:30:16 697 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:30:16 937 [CommentsController.java] [INFO] com.spe.iiitbcms.controller.CommentsController Successfully fetched comments for post with id 1
+20/Aug/2022:00:30:34 901 [CommentsController.java] [INFO] com.spe.iiitbcms.controller.CommentsController Comment created successfully
+20/Aug/2022:00:30:34 915 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched post with id 1
+20/Aug/2022:00:30:34 933 [CommentsController.java] [INFO] com.spe.iiitbcms.controller.CommentsController Successfully fetched comments for post with id 1
+20/Aug/2022:00:30:48 309 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+20/Aug/2022:00:30:48 323 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched post with id 1
+20/Aug/2022:00:30:48 341 [CommentsController.java] [INFO] com.spe.iiitbcms.controller.CommentsController Successfully fetched comments for post with id 1
+20/Aug/2022:00:36:16 638 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:36:19 623 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched post with id 1
+20/Aug/2022:00:36:19 694 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:36:19 790 [CommentsController.java] [INFO] com.spe.iiitbcms.controller.CommentsController Successfully fetched comments for post with id 1
+20/Aug/2022:00:36:29 226 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched post with id 1
+20/Aug/2022:00:36:29 337 [CommentsController.java] [INFO] com.spe.iiitbcms.controller.CommentsController Successfully fetched comments for post with id 1
+20/Aug/2022:00:37:06 034 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched post with id 1
+20/Aug/2022:00:37:06 106 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:37:06 146 [CommentsController.java] [INFO] com.spe.iiitbcms.controller.CommentsController Successfully fetched comments for post with id 1
+20/Aug/2022:00:37:39 621 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched post with id 1
+20/Aug/2022:00:37:39 683 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:37:39 791 [CommentsController.java] [INFO] com.spe.iiitbcms.controller.CommentsController Successfully fetched comments for post with id 1
+20/Aug/2022:00:38:33 167 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched post with id 1
+20/Aug/2022:00:38:33 297 [CommentsController.java] [INFO] com.spe.iiitbcms.controller.CommentsController Successfully fetched comments for post with id 1
+20/Aug/2022:00:38:33 541 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:38:34 537 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:38:36 329 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+20/Aug/2022:00:38:44 970 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+20/Aug/2022:00:38:45 609 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:38:47 530 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+20/Aug/2022:00:38:47 962 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:39:09 162 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:39:14 120 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+20/Aug/2022:00:39:14 130 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:39:16 671 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+20/Aug/2022:00:39:16 681 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:39:24 443 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+20/Aug/2022:00:39:24 454 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:39:25 535 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+20/Aug/2022:00:39:25 545 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:39:29 620 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+20/Aug/2022:00:39:29 631 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:39:36 214 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+20/Aug/2022:00:39:36 223 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:39:37 004 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+20/Aug/2022:00:39:37 017 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:39:37 893 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+20/Aug/2022:00:39:37 902 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:39:38 524 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+20/Aug/2022:00:39:38 535 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:39:39 445 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+20/Aug/2022:00:39:39 455 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:39:40 295 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+20/Aug/2022:00:39:40 307 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:39:41 056 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+20/Aug/2022:00:39:41 068 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:39:42 209 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+20/Aug/2022:00:39:42 219 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:40:16 873 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+20/Aug/2022:00:40:16 884 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:40:17 362 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+20/Aug/2022:00:40:17 373 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:42:28 700 [StartupInfoLogger.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication Starting SpringIIITcmsApplication using Java 17.0.2 on Kaushik with PID 21092 (E:\IIITBCMS-Backend\target\classes started by Kaushik in E:\IIITBCMS-Backend)
+20/Aug/2022:00:42:28 703 [SpringApplication.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication No active profile set, falling back to default profiles: default
+20/Aug/2022:00:42:31 996 [StartupInfoLogger.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication Started SpringIIITcmsApplication in 3.565 seconds (JVM running for 4.573)
+20/Aug/2022:00:42:39 332 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+20/Aug/2022:00:42:39 364 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:42:40 289 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+20/Aug/2022:00:42:40 304 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:42:41 732 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+20/Aug/2022:00:42:41 745 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:42:42 507 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+20/Aug/2022:00:42:42 521 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:42:53 795 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+20/Aug/2022:00:42:53 809 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:42:59 786 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+20/Aug/2022:00:42:59 803 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:43:01 692 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+20/Aug/2022:00:43:01 707 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:43:05 726 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+20/Aug/2022:00:43:05 739 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:43:11 416 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+20/Aug/2022:00:43:11 430 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:43:13 501 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+20/Aug/2022:00:43:13 513 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:43:18 571 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+20/Aug/2022:00:43:18 584 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:43:27 849 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+20/Aug/2022:00:43:27 862 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:43:28 951 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+20/Aug/2022:00:43:28 964 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:43:30 018 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+20/Aug/2022:00:43:30 029 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:43:30 921 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+20/Aug/2022:00:43:30 934 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:43:31 942 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+20/Aug/2022:00:43:31 960 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:43:32 522 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+20/Aug/2022:00:43:32 534 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:43:33 634 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+20/Aug/2022:00:43:33 646 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:43:34 358 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+20/Aug/2022:00:43:34 370 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:43:35 285 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+20/Aug/2022:00:43:35 297 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:43:56 670 [StartupInfoLogger.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication Starting SpringIIITcmsApplication using Java 17.0.2 on Kaushik with PID 24096 (E:\IIITBCMS-Backend\target\classes started by Kaushik in E:\IIITBCMS-Backend)
+20/Aug/2022:00:43:56 673 [SpringApplication.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication No active profile set, falling back to default profiles: default
+20/Aug/2022:00:43:59 626 [StartupInfoLogger.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication Started SpringIIITcmsApplication in 3.153 seconds (JVM running for 3.799)
+20/Aug/2022:00:44:24 805 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+20/Aug/2022:00:44:24 835 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:48:33 885 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+20/Aug/2022:00:48:33 900 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:48:35 532 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+20/Aug/2022:00:48:35 544 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:48:39 603 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+20/Aug/2022:00:48:39 617 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:48:42 086 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+20/Aug/2022:00:48:42 100 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:48:43 440 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+20/Aug/2022:00:48:43 454 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:48:44 541 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+20/Aug/2022:00:48:44 554 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:48:45 795 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+20/Aug/2022:00:48:45 809 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:48:48 077 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+20/Aug/2022:00:48:48 091 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:48:49 553 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+20/Aug/2022:00:48:49 567 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:48:50 129 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+20/Aug/2022:00:48:50 151 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:48:51 169 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+20/Aug/2022:00:48:51 181 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:48:51 802 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+20/Aug/2022:00:48:51 815 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:48:52 578 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+20/Aug/2022:00:48:52 590 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:48:53 078 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+20/Aug/2022:00:48:53 093 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:49:02 668 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+20/Aug/2022:00:49:02 682 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:49:05 019 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+20/Aug/2022:00:49:05 032 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:49:05 684 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+20/Aug/2022:00:49:05 696 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:49:06 233 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+20/Aug/2022:00:49:06 245 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:49:07 167 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+20/Aug/2022:00:49:07 179 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:49:08 231 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+20/Aug/2022:00:49:08 242 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:49:08 961 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+20/Aug/2022:00:49:08 972 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:49:12 082 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+20/Aug/2022:00:49:12 096 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:49:12 607 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+20/Aug/2022:00:49:12 619 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:49:13 325 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+20/Aug/2022:00:49:13 337 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:49:19 020 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+20/Aug/2022:00:49:19 032 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:49:21 313 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+20/Aug/2022:00:49:21 324 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:49:22 344 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+20/Aug/2022:00:49:22 356 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:49:23 382 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+20/Aug/2022:00:49:23 394 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:49:23 767 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+20/Aug/2022:00:49:23 783 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:49:24 349 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+20/Aug/2022:00:49:24 360 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:49:25 662 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+20/Aug/2022:00:49:25 674 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:49:26 729 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+20/Aug/2022:00:49:26 740 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:49:27 281 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+20/Aug/2022:00:49:27 291 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:49:27 944 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+20/Aug/2022:00:49:27 956 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:49:28 852 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+20/Aug/2022:00:49:28 863 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:49:29 947 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+20/Aug/2022:00:49:29 958 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:49:30 853 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+20/Aug/2022:00:49:30 863 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:49:31 916 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+20/Aug/2022:00:49:31 929 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:49:33 591 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+20/Aug/2022:00:49:33 602 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:49:34 186 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+20/Aug/2022:00:49:34 198 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:49:35 602 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+20/Aug/2022:00:49:35 613 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:49:36 869 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+20/Aug/2022:00:49:36 882 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:49:37 742 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+20/Aug/2022:00:49:37 751 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:49:38 578 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+20/Aug/2022:00:49:38 588 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:49:39 086 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+20/Aug/2022:00:49:39 098 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:49:40 122 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+20/Aug/2022:00:49:40 134 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:49:41 090 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+20/Aug/2022:00:49:41 100 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:49:44 961 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+20/Aug/2022:00:49:44 970 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:49:45 944 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+20/Aug/2022:00:49:45 955 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:49:46 877 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+20/Aug/2022:00:49:46 888 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:49:47 780 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+20/Aug/2022:00:49:47 791 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:49:48 868 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+20/Aug/2022:00:49:48 877 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:49:49 494 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+20/Aug/2022:00:49:49 505 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:49:50 100 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+20/Aug/2022:00:49:50 110 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:49:50 431 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+20/Aug/2022:00:49:50 442 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:49:51 553 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+20/Aug/2022:00:49:51 563 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:49:52 711 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+20/Aug/2022:00:49:52 721 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:49:53 495 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+20/Aug/2022:00:49:53 505 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:49:55 614 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+20/Aug/2022:00:49:55 623 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:49:57 544 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+20/Aug/2022:00:49:57 555 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:49:58 524 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+20/Aug/2022:00:49:58 534 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:49:59 184 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+20/Aug/2022:00:49:59 196 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:50:00 077 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+20/Aug/2022:00:50:00 089 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:50:01 158 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+20/Aug/2022:00:50:01 168 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:50:01 333 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+20/Aug/2022:00:50:01 344 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:50:02 929 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+20/Aug/2022:00:50:02 939 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:50:04 532 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+20/Aug/2022:00:50:04 541 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:50:05 235 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+20/Aug/2022:00:50:05 245 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:50:06 420 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+20/Aug/2022:00:50:06 429 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:50:06 876 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+20/Aug/2022:00:50:06 887 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:50:08 237 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+20/Aug/2022:00:50:08 246 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:50:08 513 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+20/Aug/2022:00:50:08 529 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:50:10 147 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+20/Aug/2022:00:50:10 157 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+20/Aug/2022:00:50:12 123 [VoteController.java] [INFO] com.spe.iiitbcms.controller.VoteController Successfully voted
+20/Aug/2022:00:50:12 132 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts

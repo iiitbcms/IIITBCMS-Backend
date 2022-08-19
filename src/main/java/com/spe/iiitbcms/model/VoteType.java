@@ -5,7 +5,7 @@ import com.spe.iiitbcms.exceptions.CMSException;
 import java.util.Arrays;
 
 public enum VoteType {
-    UPVOTE(1), DOWNVOTE(-1),
+    UPVOTE(1), DOWNVOTE(-1), NO_VOTE(0),
     ;
 
     private int direction;

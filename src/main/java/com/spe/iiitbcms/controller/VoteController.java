@@ -21,7 +21,7 @@ public class VoteController {
     public ResponseEntity<Void> vote(@RequestBody VoteDto voteDto) {
         HttpStatus stat;
         try {
-            voteService.vote(voteDto);
+            voteService.votes(voteDto);
             stat = HttpStatus.OK;
             logger.info("Successfully voted");
         } catch (Exception e) {
