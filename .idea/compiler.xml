@@ -18,13 +18,11 @@
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.8/lombok-1.18.8.jar" />
         </processorPath>
         <module name="iiitbcms" />
-        <module name="IIITBCMS-Backend" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="IIITBCMS-Backend" options="-parameters" />
       <module name="iiitbcms" options="-parameters" />
     </option>
   </component>

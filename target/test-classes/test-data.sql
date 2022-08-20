@@ -1,6 +1,6 @@
-INSERT INTO user
+INSERT INTO User
 (`user_id`,
- `created`,
+ `local_date_time`,
  `email`,
  `enabled`,
  `password`,

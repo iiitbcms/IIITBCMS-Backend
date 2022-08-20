@@ -11,4 +11,5 @@ import lombok.NoArgsConstructor;
 public class VoteDto {
     private VoteType voteType;
     private Long postId;
+    private String userEmail;
 }

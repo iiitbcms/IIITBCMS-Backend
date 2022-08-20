@@ -23,8 +23,8 @@ public class UserRepositoryTest extends BaseTest {
     public void shouldSaveUser() {
         User expectedUserObject = new User(null, "rollnumber", "testuser", "secretpassword", "user@email.com", Instant.now(), true);
         User actualUserObject = userRepository.save(expectedUserObject);
-//        assertThat(actualUserObject).usingRecursiveComparison()
-//                .ignoringFields("userId").isEqualTo(expectedUserObject);
+        assertThat(actualUserObject).usingRecursiveComparison()
+                .ignoringFields("userId").isEqualTo(expectedUserObject);
     }
 
 }
