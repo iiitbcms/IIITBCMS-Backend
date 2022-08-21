@@ -64,7 +64,9 @@ public class PostService {
     }
 
     @Transactional(readOnly = true)
-    public List<Post> getAllPosts() {
+    public List<Post> getAllPosts()
+    {
+
         return postRepository.findAll();
 
     }

@@ -5,6 +5,7 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.hibernate.annotations.Cascade;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotBlank;
@@ -30,7 +31,7 @@ public class Subpost {
     @NotBlank(message = "Description is required")
     private String description;
 
-    @OneToMany(fetch = LAZY)
+    @OneToMany(fetch = LAZY, cascade = { CascadeType.MERGE, CascadeType.PERSIST, CascadeType.REMOVE })
     private List<Post> posts;
 
     private Instant createdDate;
