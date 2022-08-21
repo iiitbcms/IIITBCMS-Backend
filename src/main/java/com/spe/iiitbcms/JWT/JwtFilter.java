@@ -60,7 +60,8 @@ public class JwtFilter extends OncePerRequestFilter {
         if(authorizationHeader!=null && authorizationHeader.startsWith("Bearer "))
         {
             token = authorizationHeader.substring(7);
-            try {
+            try
+            {
                 email = jwtUtil.extractEmail(token);
 
             }

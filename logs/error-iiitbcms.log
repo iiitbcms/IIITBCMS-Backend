@@ -250,3 +250,17 @@ Caused by: java.net.ConnectException: Connection timed out: connect
 19/Aug/2022:20:38:33 331 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
 19/Aug/2022:23:56:32 528 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
 20/Aug/2022:00:25:02 730 [VoteController.java] [ERROR] com.spe.iiitbcms.controller.VoteController Voting failed
+20/Aug/2022:19:02:32 771 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+21/Aug/2022:22:51:56 878 [SubpostController.java] [ERROR] com.spe.iiitbcms.controller.SubpostController Error in fetching subposts
+21/Aug/2022:23:05:40 997 [SubpostController.java] [ERROR] com.spe.iiitbcms.controller.SubpostController Error in fetching subposts
+21/Aug/2022:23:10:48 848 [SubpostController.java] [ERROR] com.spe.iiitbcms.controller.SubpostController Error in fetching subposts
+21/Aug/2022:23:11:36 249 [SubpostController.java] [ERROR] com.spe.iiitbcms.controller.SubpostController Error in fetching subposts
+21/Aug/2022:23:12:10 989 [SubpostController.java] [ERROR] com.spe.iiitbcms.controller.SubpostController Error in fetching subposts
+21/Aug/2022:23:12:54 781 [SubpostController.java] [ERROR] com.spe.iiitbcms.controller.SubpostController Error in fetching subposts
+21/Aug/2022:23:14:32 601 [SubpostController.java] [ERROR] com.spe.iiitbcms.controller.SubpostController Error in fetching subposts
+21/Aug/2022:23:14:53 184 [SubpostController.java] [ERROR] com.spe.iiitbcms.controller.SubpostController Error in fetching subposts
+21/Aug/2022:23:16:54 059 [SubpostController.java] [ERROR] com.spe.iiitbcms.controller.SubpostController Error in fetching subposts
+21/Aug/2022:23:17:59 546 [SubpostController.java] [ERROR] com.spe.iiitbcms.controller.SubpostController Error in fetching subposts
+21/Aug/2022:23:29:59 463 [SubpostController.java] [ERROR] com.spe.iiitbcms.controller.SubpostController Error in fetching subposts
+21/Aug/2022:23:30:24 340 [SubpostController.java] [ERROR] com.spe.iiitbcms.controller.SubpostController Could not create subpost
+21/Aug/2022:23:41:51 194 [SubpostController.java] [ERROR] com.spe.iiitbcms.controller.SubpostController Error in fetching subposts

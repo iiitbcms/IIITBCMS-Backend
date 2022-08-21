@@ -65,12 +65,14 @@ public class AuthService {
     }
 
     @Transactional(readOnly = true)
-    public User getCurrentUser() {
-        Jwt principal = (Jwt) SecurityContextHolder.
-                getContext().getAuthentication().getPrincipal();
-        return userRepository.findByEmail(principal.getSubject())
-                .orElseThrow(() -> new UsernameNotFoundException("User name not found - " + principal.getSubject()));
+    public User getCurrentUser()
+    {
+        User user = (User)SecurityContextHolder.getContext().getAuthentication().getPrincipal();
+
+        return userRepository.findByEmail(user.getEmail())
+                .orElseThrow(() -> new UsernameNotFoundException("User name not found - " + user.getName()));
     }
+
 
     private void fetchUserAndEnable(VerificationToken verificationToken) {
         String rollNo = verificationToken.getUser().getRollNo();
