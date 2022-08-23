@@ -51,7 +51,7 @@ public class SubpostService {
 
     }
 
-    public List<Subpost> getAll(HttpServletRequest request)
+    public List<Subpost> getAllForAdmin(HttpServletRequest request)
     {
         User user = authService.getCurrentUser();
         System.out.println("role is " + user.getRole() );
@@ -61,6 +61,11 @@ public class SubpostService {
         {
             return null;
         }
+    }
+
+    public List<Subpost> getAll(HttpServletRequest request)
+    {
+        return subpostRepository.findAll();
     }
 
     public SubpostDto getSubpost(Long id) {
