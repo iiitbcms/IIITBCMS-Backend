@@ -49,6 +49,28 @@ public class SubpostController {
         return ResponseEntity.status(stat).body(subpost);
     }
 
+    @GetMapping("/admin")
+    public ResponseEntity<List<Subpost>> getAllSubpostsForAdmin(HttpServletRequest request)
+    {
+
+        HttpStatus stat;
+        List<Subpost> subposts = new ArrayList<>();
+        try {
+            subposts = subpostService.getAllForAdmin(request);
+            stat = HttpStatus.OK;
+            if(subposts==null)
+            {
+                stat = HttpStatus.FORBIDDEN;
+                throw new Exception();
+            }
+            logger.info("Successfully fetched subposts");
+        } catch (Exception e) {
+            stat = HttpStatus.EXPECTATION_FAILED;
+            logger.error("Error in fetching subposts. Non admin accessing the page");
+        }
+        return ResponseEntity.status(stat).body(subposts);
+    }
+
     @GetMapping
     public ResponseEntity<List<Subpost>> getAllSubposts(HttpServletRequest request)
     {
