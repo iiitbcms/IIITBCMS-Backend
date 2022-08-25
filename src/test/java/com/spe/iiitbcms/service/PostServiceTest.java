@@ -56,9 +56,9 @@ class PostServiceTest {
     @DisplayName("Should Retrieve Post by Id")
     public void shouldFindPostById() {
         Post post = new Post(123L, "First Post", "http://url.site", "Test",
-                0, null, LocalDateTime.now(), null);
+                0, null, "user",LocalDateTime.now(), null);
         PostResponse expectedPostResponse = new PostResponse(123L, "First Post", "http://url.site", "Test",
-                "Test User", "Test Subredit", 0, 0, "1 Hour Ago", false, false);
+                "Test User", "Test Subredit", "DummyUser",0, 0, "1 Hour Ago", false, false,LocalDateTime.now());
 
         Mockito.when(postRepository.findById(123L)).thenReturn(Optional.of(post));
         Mockito.when(postMapper.mapToDto(Mockito.any(Post.class))).thenReturn(expectedPostResponse);

@@ -2,6 +2,7 @@ package com.spe.iiitbcms.repository;
 
 import com.spe.iiitbcms.BaseTest;
 import com.spe.iiitbcms.model.Post;
+import com.spe.iiitbcms.model.User;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.jdbc.AutoConfigureTestDatabase;
@@ -23,7 +24,7 @@ public class PostRepositoryTest extends BaseTest {
     @Test
     public void shouldSavePost() {
         Post expectedPostObject = new Post(null, "First Post", "http://url.site", "Test",
-                0, null, LocalDateTime.now(), null);
+                0, new User(), "user",LocalDateTime.now(), null);
         Post actualPostObject = postRepository.save(expectedPostObject);
         assertThat(actualPostObject).usingRecursiveComparison()
                 .ignoringFields("postId").isEqualTo(expectedPostObject);

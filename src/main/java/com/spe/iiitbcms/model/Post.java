@@ -42,6 +42,8 @@ public class Post {
     @JoinColumn(name = "userId", referencedColumnName = "userId")
     private User user;
 
+    private String postedBy;
+
     private LocalDateTime localDateTime;
 
     @ManyToOne(fetch = LAZY)
@@ -115,5 +117,13 @@ public class Post {
 
     public void setSubpost(Subpost subpost) {
         this.subpost = subpost;
+    }
+
+    public String getPostedBy() {
+        return postedBy;
+    }
+
+    public void setPostedBy(String postedBy) {
+        this.postedBy = postedBy;
     }
 }
