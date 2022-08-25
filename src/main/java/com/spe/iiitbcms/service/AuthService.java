@@ -52,7 +52,7 @@ public class AuthService {
         user.setEmail(registerRequest.getEmail());
         user.setPassword(passwordEncoder.encode(registerRequest.getPassword()));
         user.setLocalDateTime(LocalDateTime.now());
-        user.setEnabled(true);
+        user.setEnabled(false);
         user.setRole(registerRequest.getRole());
 
         userRepository.save(user);
