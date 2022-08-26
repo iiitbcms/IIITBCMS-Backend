@@ -67,7 +67,7 @@ public class CommentService {
         {
             System.out.println("user is " + c.getUser().getName());
             System.out.println(c.getText());
-            System.out.println(c.getPost().getDescription());
+//            System.out.println(c.getPost().getDescription());
         }
 //        return al;
         return commentRepository.findByPost(post)

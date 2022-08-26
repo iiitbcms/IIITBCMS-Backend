@@ -264,3 +264,14 @@ Caused by: java.net.ConnectException: Connection timed out: connect
 21/Aug/2022:23:29:59 463 [SubpostController.java] [ERROR] com.spe.iiitbcms.controller.SubpostController Error in fetching subposts
 21/Aug/2022:23:30:24 340 [SubpostController.java] [ERROR] com.spe.iiitbcms.controller.SubpostController Could not create subpost
 21/Aug/2022:23:41:51 194 [SubpostController.java] [ERROR] com.spe.iiitbcms.controller.SubpostController Error in fetching subposts
+21/Aug/2022:23:52:42 148 [SubpostController.java] [ERROR] com.spe.iiitbcms.controller.SubpostController Error in fetching subposts
+23/Aug/2022:21:40:22 546 [SubpostController.java] [ERROR] com.spe.iiitbcms.controller.SubpostController Error in fetching subposts
+23/Aug/2022:21:44:32 267 [SubpostController.java] [ERROR] com.spe.iiitbcms.controller.SubpostController Error in fetching subposts
+23/Aug/2022:21:45:16 247 [SubpostController.java] [ERROR] com.spe.iiitbcms.controller.SubpostController Could not create subpost
+23/Aug/2022:21:48:48 153 [SubpostController.java] [ERROR] com.spe.iiitbcms.controller.SubpostController Error in fetching subposts
+23/Aug/2022:21:48:51 527 [SubpostController.java] [ERROR] com.spe.iiitbcms.controller.SubpostController Error in fetching subposts
+25/Aug/2022:22:48:13 894 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+26/Aug/2022:00:53:52 641 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+26/Aug/2022:00:59:46 052 [AuthController.java] [ERROR] com.spe.iiitbcms.controller.AuthController Error logging in
+26/Aug/2022:01:15:49 269 [VoteController.java] [ERROR] com.spe.iiitbcms.controller.VoteController Voting failed
+26/Aug/2022:01:38:36 822 [VoteController.java] [ERROR] com.spe.iiitbcms.controller.VoteController Voting failed

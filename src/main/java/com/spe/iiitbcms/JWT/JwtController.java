@@ -41,7 +41,10 @@ public class JwtController {
         System.out.println("Obtained password is " + jwtRequest.getPassword());
 
         Optional<User> user = userRepository.findByEmail(jwtRequest.getEmail());
-
+        if(!user.get().isEnabled())
+        {
+            throw new Exception("Account not activated");
+        }
         try
         {
             this.authenticationManager.authenticate(new UsernamePasswordAuthenticationToken(jwtRequest.getEmail(),

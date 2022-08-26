@@ -18,6 +18,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.time.LocalDateTime;
+import java.util.ArrayList;
 import java.util.List;
 
 import static java.util.stream.Collectors.toList;
@@ -46,11 +47,13 @@ public class PostService {
         post.setUrl(postRequest.getUrl());
         post.setVoteCount(0);
         post.setUser(user);
+        post.setPostedBy(user.getName());
         postRepository.save(post);
     }
 
     @Transactional(readOnly = true)
-    public PostResponse getPost(Long id) {
+    public PostResponse getPost(Long id)
+    {
         Post post = postRepository.findById(id)
                 .orElseThrow(() -> new PostNotFoundException(id.toString()));
 //        System.out.println(post.getDescription());
@@ -60,15 +63,15 @@ public class PostService {
         postResponse.setVoteCount(post.getVoteCount());
         postResponse.setDescription(post.getDescription());
         postResponse.setPostName(post.getPostName());
+        postResponse.setUsername(post.getUser().getName());
+        postResponse.setLocalDateTime(post.getLocalDateTime());
         return postResponse;
     }
 
     @Transactional(readOnly = true)
     public List<Post> getAllPosts()
     {
-
         return postRepository.findAll();
-
     }
 
     @Transactional(readOnly = true)
