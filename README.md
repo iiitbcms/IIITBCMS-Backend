@@ -43,4 +43,4 @@ As of now, I have used a pseudo mail box, `mailtrap.io` for account validation a
 
 # For IIITBSoC
 Queries welcome at [akshath.kaushal@iiitb.ac.in](mailto:akshath.kaushal@iiitb.ac.in)    
-Check the front end repository [here](https://github.com/akshathkaushal/IIITB-CMS-Frontend)
+Check the front end repository [here](https://github.com/iiitbcms/IIITBCMS-Frontend)
